@@ -1,0 +1,23 @@
+body {
+  animation: rainbow 3s infinite;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+body {
+  animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+  0% { background: red; }
+  10% { background: orange; }
+  20% { background: yellow; }
+  30% { background: green; }
+  40% { background: blue; }
+  50% { background: indigo; }
+  60% { background: violet; }
+  70% { background: red; }
+  80% { background: orange; }
+  90% { background: yellow; }
+  100% { background: green; }
+}
+
